@@ -399,7 +399,7 @@ def updateCheck(self, Version):
           return message
 
     check = UpdateChecker()
-    check.URL = "https://raw.githubusercontent.com/ravana69/gtorrent/master/update.xml"
+    check.URL = "https://raw.githubusercontent.com/innowebka/1/master/update.xml"
     currentVersion = check.getVersion("currentVersion")
     message = check.getMessage("message")
 
